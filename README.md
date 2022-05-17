@@ -1,4 +1,4 @@
-Bingo game
+##Bingo game
 
 Tutte le funzionalita del gioco del bingo sono comprese il tabellone è completamente funzionante, la cartella puo essere generata random quante volte si vuole, la cartella e la classica del bingo 5x3, alla fine il risultato viene aggionato nel database ed ottieni lo storico delle tue partite personali.
 
