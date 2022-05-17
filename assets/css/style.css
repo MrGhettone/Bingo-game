@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+.cl::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+
+.table_width {
+  width: 18rem;
+  margin: 0 auto;
+}
+.instruction {
+  width: 100%;
+}
+.instruction p {
+  margin: 0;
+}
+.cartell table {
+  width: 100%;
+  height: 116px;
+  font-family: monospace;
+}
+.cartell {
+  width: 100%;
+  margin: 0 auto;
+}
+.hidden {
+  visibility: hidden;
+}
+.green {
+  background-color: green;
+  color: white;
+}
+
+.extraction {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 565px) {
+  .cartell {
+    width: 400px;
+  }
+  .extraction {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .instruction {
+    width: 58%;
+  }
+  .extraction {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .instruction {
+    width: 67%;
+  }
+  .cartell table {
+    height: 116px;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .instruction {
+    width: 74%;
+  }
+}
